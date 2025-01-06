@@ -1,0 +1,101 @@
+/* Resetando estilos padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Definindo o layout e fundo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f5ff;
+    color: #333;
+}
+
+header {
+    background-color: #3398ff;
+    padding: 15px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo span {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+    font-size: 18px;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.text-content {
+    max-width: 50%;
+}
+
+.text-content h1 {
+    font-size: 40px;
+    color: #3398ff;
+    margin-bottom: 15px;
+}
+
+.text-content p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.buttons button {
+    background-color: #3398ff;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.buttons button:hover {
+    background-color: #2877b7;
+}
+
+.info-box {
+    background-color: #00aaff;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 40%;
+    color: white;
+}
+
+.info-box .info-item {
+    margin-bottom: 20px;
+}
+
+.info-item img {
+    border-radius: 50%;
+    margin-right: 10px;
+    width: 50px;
+    height: 50px;
+}
+
+.info-item p {
+    font-size: 16px;
+}
+
+.info-item strong {
+    font-weight: bold;
+}
