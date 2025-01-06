@@ -1,35 +1,42 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Economy - Bot de Economia</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <header>
+
+    <!-- Cabeçalho com logo e links de navegação -->
+    <header class="header">
         <div class="logo">
-            <span>ECONOMY</span>
-            <a href="#">SAIBA MAIS</a>
+            <span class="logo-text">ECONOMY</span>
+            <a href="#" class="learn-more">SAIBA MAIS</a>
         </div>
-        <nav>
-            <a href="#">Início</a>
-            <a href="login.js">Login</a>
+        <nav class="nav">
+            <a href="#" class="nav-link">Início</a>
+            <a href="login.js" class="nav-link">Login</a>
         </nav>
     </header>
 
-    <section class="main-content">
-        <div class="text-content">
-            <h1>economy™</h1>
-            <p>Um simples bot de economia para o Discord</p>
+    <!-- Seção principal com texto e informações -->
+    <main class="main-content">
+        <section class="text-content">
+            <h1 class="title">economy™</h1>
+            <p class="description">Um simples bot de economia para o Discord</p>
             <div class="buttons">
-                <button>+ Adicionar</button>
-                <button>Daily</button>
+                <button class="btn add-btn">+ Adicionar</button>
+                <button class="btn daily-btn">Daily</button>
             </div>
-        </div>
-        <div class="info-box">
+        </section>
+
+        <!-- Caixa de informações sobre o bot -->
+        <section class="info-box">
             <div class="info-item">
-                <img src="https://via.placeholder.com/50" alt="Perfil">
+                <img src="https://via.placeholder.com/50" alt="Perfil do fundador" class="info-img">
                 <p><strong>Carloss</strong><br>Fundador</p>
             </div>
             <div class="info-item">
@@ -37,10 +44,11 @@
                 <p>Apenas um bot criado para diversão e entretenimento de amigos.</p>
             </div>
             <div class="info-item">
-                <p><strong><Number> Servidores</strong><br>e divertindo mais de <strong><Number> usuários</strong>.</p>
+                <p><strong><span class="number">500</span> Servidores</strong><br>e divertindo mais de <strong><span class="number">10.000</span> usuários</strong>.</p>
             </div>
-        </div>
-    </section>
+        </section>
+    </main>
+
 </body>
-                  </html>
-                  
+
+</html>
