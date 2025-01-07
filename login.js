@@ -5,24 +5,24 @@ const querystring = require('querystring');
 const app = express();
 const PORT = 3000;
 
-const DISCORD_CLIENT_ID = 'SEU_CLIENT_ID';
-const DISCORD_CLIENT_SECRET = 'SEU_CLIENT_SECRET';
-const REDIRECT_URI = 'SEU_REDIRECT_URI';
+const DISCORD_CLIENT_ID = '893979282781659166';
+const DISCORD_CLIENT_SECRET = '24198537a4c5a3e4864c84fc24e1607906b8b4e17e3bbbae510de84f9435a774';
+const REDIRECT_URI = 'https://economy-gg.onrender.com/';
 
 app.get('/login/discord', (req, res) => {
     const redirect_uri = `https://discord.com/oauth2/authorize?client_id=${DISCORD_CLIENT_ID}&redirect_uri=${REDIRECT_URI}&response_type=code&scope=identify`;
     res.redirect(redirect_uri);
 });
 
-app.get('/auth/discord', async (req, res) => {
+aID da aplicação: 893979282781659166pp.get('/auth/discord', async (req, res) => {
     const { code } = req.query;
 
     const tokenRequestData = {
-        client_id: DISCORD_CLIENT_ID,
-        client_secret: DISCORD_CLIENT_SECRET,
+        client_id: 893979282781659166,
+        client_secret: 24198537a4c5a3e4864c84fc24e1607906b8b4e17e3bbbae510de84f9435a774,
         code: code,
         grant_type: 'authorization_code',
-        redirect_uri: REDIRECT_URI,
+        redirect_uri: https://economy-gg.onrender.com/,
         scope: 'identify',
     };
 
