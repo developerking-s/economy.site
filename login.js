@@ -10,7 +10,7 @@ const DISCORD_CLIENT_SECRET = '24198537a4c5a3e4864c84fc24e1607906b8b4e17e3bbbae5
 const REDIRECT_URI = 'https://economy-gg.onrender.com/';
 
 app.get('/login/discord', (req, res) => {
-    const redirect_uri = `https://discord.com/oauth2/authorize?client_id=${DISCORD_CLIENT_ID}&redirect_uri=${REDIRECT_URI}&response_type=code&scope=identify`;
+    const redirect_uri = `https://discord.com/oauth2/authorize?client_id=${893979282781659166}&redirect_uri=${https://economy-gg.onrender.com/}&response_type=code&scope=identify`;
     res.redirect(redirect_uri);
 });
 
